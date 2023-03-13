@@ -1,0 +1,190 @@
+.gpt3__blog {
+    display: flex;
+    flex-direction: column;    
+}
+
+.gpt3__blog-heading {
+    width: 100%;
+    text-align: left;
+
+    margin-bottom: 2rem;
+}
+
+.gpt3__blog-heading h1 {
+    font-size: 45px;
+    line-height: 70px;
+    font-family: var(--font-family);
+    font-weight: 800;
+}
+
+.gpt3__blog-container {
+    display: flex;
+    flex-direction: row;
+}
+
+.gpt3__blog-container_groupA {
+    flex: 0.75;
+    margin-right: 3rem;
+}
+
+.gpt3__blog-container_groupB {
+    flex: 1;
+
+    display:grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-gap: 2rem;
+}
+
+@media screen and (max-width: 990px) {
+    .gpt3__blog-container {
+        flex-direction: column-reverse;
+    }
+
+
+    .gpt3__blog-container_groupA {
+        margin: 2rem 0;
+    }
+
+    .gpt3__blog-container_groupA .gpt3__blog-container_article  {
+       width: 20%;
+    }
+
+    .gpt3__blog-container_groupA .gpt3__blog-container_article-image {
+        height: 250px;
+    }
+}
+
+
+
+@media screen and (max-width: 700px) {
+    .gpt3__blog-container_groupB {
+        grid-template-columns: repeat(1, 1fr);
+    }
+
+    .gpt3__blog-container_groupA .gpt3__blog-container_article  {
+       width: 100%;
+    }
+
+    .gpt3__blog-heading h1 {
+        font-size: 46px;
+        line-height: 52px;
+    }
+}
+
+@media screen and (max-width: 550px) {
+    .gpt3__blog-heading h1 {
+        font-size: 34px;
+        line-height: 42px;
+    }
+
+}
+
+
+.btn11  button {
+    margin-top: 20px;
+    background-color: rgba(225, 0, 120, 0.6);
+    font-family: var(--font-family);
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 30px;
+    min-height: 40px;
+    padding: 0.5rem 1rem;
+    border-radius: 1rem;
+    border: none;
+    outline: none;
+    cursor: pointer;
+    box-shadow: 1cm;
+    box-shadow:#ffffff;
+    width: 300px;
+    margin-left: 30px;
+
+}
+.btn22  button {
+    margin-top: 20px;
+    background-color: rgba(0, 164, 86, 0.6);
+    font-family: var(--font-family);
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 30px;
+    min-height: 40px;
+    padding: 0.5rem 1rem;
+    border-radius: 1rem;
+    border: none;
+    outline: none;
+    cursor: pointer;
+    width: 300px;
+    margin-left: 30px;
+
+}
+
+.btn33  button {
+    margin-top: 20px;
+    background-color: rgba(255,165,0, 0.9);
+    font-family: var(--font-family);
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 30px;
+    min-height: 40px;
+    padding: 0.5rem 1rem;
+    border-radius: 1rem;
+    border: none;
+    outline: none;
+    cursor: pointer;
+    width: 300px;
+    margin-left: 30px;
+
+}
+
+.btn44 button {
+    margin-top: 20px;
+    background-color: rgba(0, 0, 0, 0.9);
+    font-family: var(--font-family);
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 30px;
+    min-height: 40px;
+    padding: 0.5rem 1rem;
+    border-radius: 1rem;
+    border: none;
+    outline: none;
+    cursor: pointer;
+    width: 300px;
+    margin-left: 30px;
+
+}
+
+.btn55 button {
+    margin-top: 20px;
+    background-color: rgba(0,0,255, 0.9);
+    font-family: var(--font-family);
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 30px;
+    min-height: 40px;
+    padding: 0.5rem 1rem;
+    border-radius: 1rem;
+    border: none;
+    outline: none;
+    cursor: pointer;
+    width: 300px;
+    margin-left: 30px;
+
+}
+
+.btn66 button {
+    margin-top: 20px;
+    background-color: rgba(255, 182, 193, 1);
+    font-family: var(--font-family);
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 30px;
+    min-height: 40px;
+    padding: 0.5rem 1rem;
+    border-radius: 1rem;
+    border: none;
+    outline: none;
+    cursor: pointer;
+    width: 300px;
+    margin-left: 30px;
+
+}
